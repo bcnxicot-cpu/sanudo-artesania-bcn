@@ -162,6 +162,7 @@ footer > div { justify-self: end; display: flex; flex-direction: column; align-i
   .workbench { padding: 75px 20px; }
   .workbench-title { display: block; margin-bottom: 42px; }
   .workbench h2, .process-head h2, .courses-heading h2, .made-copy h2, .heritage h2, .visit h2 { font-size: clamp(46px, 14.7vw, 68px); line-height: .91; }
+  .workbench h2 { font-size: clamp(40px, 11.9vw, 52px); overflow-wrap: normal; word-break: normal; hyphens: none; }
   .workbench-title > p:last-child { margin-top: 27px; font-size: 17px; }
   .workbench-collage { height: auto; min-height: 0; grid-template-columns: 1fr 1fr; grid-template-rows: 510px 270px; gap: 8px; }
   .collage-main { grid-column: 1 / 3; grid-row: 1; }
